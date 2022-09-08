@@ -1,0 +1,125 @@
+body {
+  font-family: "Montserrat";
+  background-color: #E8EAE6;
+}
+
+h1 {
+  color:#525252;
+  display: flex;
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #7C9473;
+  padding: 15px 0;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;  
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #E8EAE6;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #14532d;
+}
+
+/* Intro Styles */
+.intro {
+padding: 90px 450px;
+}
+
+.intro-desc {
+text-align: center;
+padding: 20px 0;
+color: #525252;
+font-size: 1.25rem;
+}
+
+/* Image Gallery Styles */ 
+.image-gallery {
+  overflow: auto;
+  background-color: #CDD0CB;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.images{
+  display: flex;
+  align-items: center;
+}
+
+.gallery {
+    margin: 20px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+.images  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+    color: #525252;
+  }
+
+
+/*Webform Styles */ 
+.webform {
+  background-color: #CDD0CB;
+  padding: 30px 30px 80px 50px;
+  color: #525252;
+}
+
+.name {
+  width: 15%;
+}
+
+.email {
+  width: 30%;
+}
+
+.submit {
+  background-color: #7C9473;
+  border: none;
+  color: #E8EAE6;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+.webform input {
+  border: 1px solid #525252;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+
